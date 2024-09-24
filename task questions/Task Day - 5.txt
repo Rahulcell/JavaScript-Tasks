@@ -1,0 +1,14 @@
+Task 1: Print Numbers from 1 to 10
+Write a for loop that prints all the numbers from 1 to 10, each on a new line.
+
+Task 2: Print Multiplication Table
+Create a for loop that prints the multiplication table for the number 5, from 1 to 10. For example, it should print 5 x 1 = 5, 5 x 2 = 10, and so on up to 5 x 10 = 50.
+
+Task 3: Sum of First 10 Natural Numbers
+Use a for loop to calculate and print the sum of the first 10 natural numbers (1 to 10).
+
+Task 4: Print Numbers Divisible by 3 from 1 to 30
+Create a for loop that prints all numbers between 1 and 30 that are divisible by 3.
+
+Task 5: Print Square of Numbers from 1 to 10
+Write a for loop that prints the square of each number from 1 to 10. For example, it should print 1 squared is 1, 2 squared is 4, and so on up to 10 squared is 100.

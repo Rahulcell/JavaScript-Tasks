@@ -1,0 +1,22 @@
+var teaType = "Regular";
+var addOn = "Extra Milk";
+
+var basePrice = 0;
+var addOnPrice = 0;
+
+switch (teaType){
+    case "Regular" : basePrice = 15; break;
+    case "Masala" : basePrice = 20; break;
+    case "Ginger" : basePrice = 25; break;
+    default : alert("enter the correct option");
+}
+switch(addOn){
+    case "Extra Milk" : addOnPrice = 2.5 ; break;
+    case "Extra Sugar" : addOnPrice = 5 ; break;
+    case "No Add-ons" : addOnPrice = 0 ; break;
+    default : alert("please enter correct type of addOns");
+}
+
+var total = basePrice + addOnPrice;
+
+console.log("your total bill is" + total);

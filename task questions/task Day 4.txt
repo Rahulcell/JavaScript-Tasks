@@ -1,0 +1,1 @@
+do the 9th question in the 3rd task using switch cases
