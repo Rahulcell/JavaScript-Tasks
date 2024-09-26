@@ -1,0 +1,350 @@
+1.	What will the output of the following code be?
+ 	console.log(10 + 10); 
+ 	a) 20
+b) "1010"
+c) "20"
+d) Error
+ 	Ans: a
+2.	What will the output of the following code be?
+ 	console.log(10 + "10"); 
+ 	a) 20
+b) "1010"
+c) "20"
+d) Error
+ 	Ans: b
+3.	What will the output of the following code be?
+ 	console.log(10 + +"10"); 
+ 	a) 20
+b) 1010
+c) NaN
+d) "1010"
+ 	Ans: a
+4.	What will the output of the following code be?
+ 	console.log(10 + "10" + 10); 
+ 	a) 30
+b) "101010"
+c) 101010
+d) "30"
+ 	Ans: b
+5.	What will the output of the following code be?
+ 	console.log(10 + +"10" + 10); 
+ 	a) 30
+b) "101010"
+c) 2010
+d) NaN
+ 	Ans: a
+6.	What will the output of the following code be?
+ 	console.log(10 - "2"); 
+ 	a) NaN
+b) 8
+c) 12
+d) Error
+ 	Ans:b
+7.	What will the output of the following code be?
+ 	console.log(10 - "2" - "8"); 
+ 	a) 0
+b) NaN
+c) 10
+d) 12
+ 	Ans: a
+8.	What will the output of the following code be?
+ 	console.log(10 + "2" - "2");
+ 	a) 10
+b) 100
+c) 102
+d) 1000
+ 	Ans:b
+9.	What will the output of the following code be?
+ 	console.log(10 > 9 > 8); 
+ 	a) true
+b) false
+c) undefined
+d) NaN
+ 	Ans:b
+10.	What will the output of the following code be?
+ 	console.log(10 * "10"); 
+ 	a) 100
+b) "100"
+c) NaN
+d) Error
+ 	Ans:a
+11.	What will the output of the following code be?
+ 	console.log(100 / "100"); 
+ 	a) 1
+b) 100
+c) NaN
+d) "1"
+ 	Ans:a
+12.	What will the output of the following code be?
+ 	console.log(100 / "0"); 
+ 	a) NaN
+b) Infinity
+c) -Infinity
+d) Error
+ 	Ans:b
+13.	What will the output of the following code be?
+ 	console.log(100 / "-0"); 
+ 	a) NaN
+b) Infinity
+c) -Infinity
+d) Error
+ 	Ans:c
+14.	What will the output of the following code be?
+ 	console.log(100 + +"100" - "100" * "100"); 
+ 	a) 100
+b) 0
+c) NaN
+d) None
+ 	Ans:d
+15.	What will the output of the following code be?
+ 	console.log(1 == "1"); 
+ 	a) true
+b) false
+c) undefined
+d) NaN
+ 	Ans:a
+16.	What will the output of the following code be?
+ 	console.log(1 === "1"); 
+ 	a) true
+b) false
+c) undefined
+d) NaN
+Ans:b
+17.	What will the output of the following code be?
+ 	console.log(1 == "one"); 
+ 	a) true
+b) false
+c) NaN
+d) Error
+ 	Ans:b
+18.	What will the output of the following code be?
+ 	console.log(1 === "one"); 
+ 	a) true
+b) false
+c) NaN
+d) Error
+ 	Ans:b
+19.	What will the output of the following code be?
+ 	console.log(1 + true); 
+ 	a) 1
+b) 2
+c) NaN
+d) true
+ 	Ans:b
+20.	What will the output of the following code be?
+ 	console.log(1 - true); 
+ 	a) 1
+b) 0
+c) NaN
+d) false
+ 	Ans:b
+21.	What will the output of the following code be?
+ 	console.log(1 + true - false); 
+ 	a) 1
+b) 2
+c) NaN
+d) true
+ 	Ans:b
+22.	What will the output of the following code be?
+ 	console.log("1" + true); 
+ 	a) "1true"
+b) NaN
+c) 1
+d) true
+ 	Ans:a
+23.	What will the output of the following code be?
+ 	console.log(+"1" + true); 
+ 	a) 1
+b) 2
+c) NaN
+d) true
+ 	Ans:b
+24.	What will the output of the following code be?
+ 	console.log(undefined == undefined); 
+ 	a) true
+b) false
+c) NaN
+d) undefined
+ 	Ans:a
+25.	What will the output of the following code be?
+ 	console.log(undefined === undefined); 
+ 	a) true
+b) false
+c) NaN
+d) undefined
+ 	Ans:a
+26.	What will the output of the following code be?
+ 	console.log(null == null); 
+ 	a) true
+b) false
+c) NaN
+d) undefined
+ 	Ans:a
+27.	What will the output of the following code be?
+ 	console.log(null === null); 
+ 	a) true
+b) false
+c) NaN
+d) undefined
+ 	Ans:a
+28.	What will the output of the following code be?
+ 	console.log(undefined == null); 
+ 	a) true
+b) false
+c) NaN
+d) undefined
+ 	Ans:a
+29.	What will the output of the following code be?
+ 	console.log(undefined === null); 
+ 	a) true
+b) false
+c) NaN
+d) undefined
+ 	Ans:b
+30.	What will the output of the following code be?
+ 	console.log(2 + NaN); 
+ 	a) 2
+b) NaN
+c) Infinity
+d) undefined
+ 	Ans:b
+31.	What will the output of the following code be?
+ 	console.log("2" + NaN); 
+ 	a) "2NaN"
+b) 2
+c) NaN
+d) undefined
+ 	Ans:a
+32.	What will the output of the following code be?
+ 	console.log("2" + undefined); 
+ 	a) "2undefined"
+b) 2
+c) NaN
+d) undefined
+ 	Ans:a
+33.	What will the output of the following code be?
+ 	console.log(2 + undefined); 
+ 	a) NaN
+b) 2
+c) Infinity
+d) undefined
+ 	Ans:a
+34.	What is the type of the following value?
+ 	console.log(typeof "123");
+ 	a) string
+b) number
+c) boolean
+d) undefined
+ 	Ans:a
+35.	What is the type of the following value?
+ 	console.log(typeof 2);
+ 	a) string
+b) number
+c) boolean
+d) object
+ 	Ans:b
+ 	
+36.	What is the type of the following value?
+ 	console.log(typeof true);
+ 	a) string
+b) number
+c) boolean
+d) object
+ 	Ans:c
+37.	What is the type of the following value?
+ 	console.log(typeof undefined);
+ 	a) string
+b) number
+c) boolean
+d) undefined
+ 	Ans:d
+38.	What is the type of the following value?
+ 	console.log(typeof null);
+ 	a) string
+b) object
+c) null
+d) undefined
+ 	Ans:c
+39.	What is the type of the following value?
+ 	console.log(typeof []);
+ 	a) object
+b) array
+c) undefined
+d) null
+ 	Ans:a
+40.	What is the type of the following value?
+ 	console.log(typeof 1n);
+ 	a) number
+b) bigint
+c) boolean
+d) undefined
+ 	Ans:b
+41.	What will the output of the following code be?
+ 	console.log(typeof 1n + 2n);
+ 	a) "bigint2n"
+b) "bigint"
+c) NaN
+d) Error
+ 	Ans:a
+42.	What will the output of the following code be?
+ 	console.log(typeof 1 + 2n);
+ 	a) "number"
+b) NaN
+c) Error
+d) "number2n"
+ 	Ans:d
+43.	What will the output of the following code be?
+ 	console.log(typeof 1 / 1n);
+ 	a) "number"
+b) NaN
+c) Error
+d) Infinity
+ 	Ans:c
+44.	What will the output of the following code be?
+ 	console.log([] + {});
+ 	a) "[object Object]"
+b) NaN
+c) undefined
+d) Error
+ 	Ans:a
+45.	What will the output of the following code be?
+ 	console.log({} + []);
+ 	a) "[object Object]"
+b) NaN
+c) undefined
+d) Error
+ 	ans:a
+46.	What will the output of the following code be?
+ 	console.log(1 + "1" - 1);
+ 	a) 1
+b) "1"
+c) NaN
+d) 11
+ 	Ans:none
+47.	What will the output of the following code be?
+ 	console.log("10" - "5" + "5");
+ 	a) "55"
+b) "105"
+c) 105
+d) 10
+ 	Ans:a
+48.	What will the output of the following code be?
+ 	console.log([] + []);
+ 	a) "0"
+b) ""
+c) []
+d) undefined
+ 	ans:b
+49.	What will the output of the following code be?
+ 	console.log("10" - 5 + 10);
+ 	a) "1510"
+b) 15
+c) "105"
+d) NaN ans:b
+50.	What will the output of the following code be?
+ 	console.log(+"");
+ 	a) 0
+b) NaN
+c) ""
+d) undefined ans:a
+

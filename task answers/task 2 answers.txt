@@ -1,0 +1,515 @@
+________________________________________
+1. What will be the output of the following code?
+let x = 5;
+x++;
+console.log(x);
+A)	5
+
+B)	6
+
+C)	7
+
+D)	4
+________________________________________
+2. What will be the value of y after the following code executes?
+let y = 10;
+y--;
+A)	9
+
+B)	10
+
+C)	11
+
+D)	8
+________________________________________
+3. What does the ++ operator do?
+A)	Decreases the value by 1
+
+B)	Increases the value by 1
+
+C)	Multiplies the value by 2
+
+D)	Divides the value by 2
+________________________________________
+4. What is the result of the following code?
+let num = 3;
+console.log(num++);
+A)	3
+
+B)	4
+
+C)	5
+
+D)	6
+________________________________________
+5. What is the difference between x++ and ++x?
+A)	x++ increments the value before using it, while ++x increments after
+
+B)	x++ increments after using it, while ++x increments before
+
+C)	There is no difference
+
+D)	Both increment before using the value
+________________________________________
+6. What will be the output of the following code?
+let a = 1;
+console.log(++a);
+A)	1
+
+B)	2
+
+C)	3
+
+D)	0
+________________________________________
+7. What will be the output of the following code?
+let b = 2;
+console.log(--b);
+A)	1
+
+B)	2
+
+C)	3
+
+D)	0
+________________________________________
+8. If x = 5, what does y = ++x + 2 result in?
+let x = 5;
+let y = ++x + 2;
+A)	7
+
+B)	8
+
+C)	9
+
+D)	10
+________________________________________
+9. What will be the value of result in the following code?
+let count = 10;
+let result = count-- + 5;
+A)	14
+
+B)	15
+
+C)	16
+
+D)	10
+________________________________________
+10. What happens when you use ++ on a string in JavaScript?
+let str = "abc";
+str++;
+A)	Increases the ASCII value of each character
+
+B)	Converts the string to a number
+
+C)	Results in NaN
+
+D)	Throws an error
+________________________________________
+11. What will be the result of the following code?
+let x = 4;
+let y = x++ + ++x;
+A)	8
+
+B)	9
+
+C)	10
+
+D)	11
+________________________________________
+12. What is the final value of z?
+let z = 5;
+z = z++ + ++z + z--;
+A)	17
+
+B)	16
+
+C)	18
+
+D)	19
+________________________________________
+13. What will the following code output?
+let x = 10;
+console.log(++x + x++);
+A)	21
+
+B)	22
+
+C)	23
+
+D)	20
+________________________________________
+14. What will be the final value of n?
+let n = 6;
+n = --n + ++n + n--;
+A)	17
+
+B)	16
+
+C)	18
+
+D)	15
+________________________________________
+15. What will the following code output?
+let x = 3;
+let y = x-- - --x;
+console.log(y);
+A)	2
+
+B)	1
+
+C)	0
+
+D)	-1
+________________________________________
+16. What will the following code output?
+let x = 5;
+let result = x-- - ++x + x++;
+console.log(result);
+A)	1
+
+B)	0
+
+C)	-1
+
+D)	2
+________________________________________
+17. What will be the output of this code?
+let x = 3;
+x++;
+++x;
+console.log(x);
+A)	4
+
+B)	5
+
+C)	6
+
+D)	3
+________________________________________
+18. Which of the following statements correctly decrements the value of z before using it?
+let z = 7;
+A)	z--
+
+B)	--z
+
+C)	z -= 1
+
+D)	--z; z - 1
+________________________________________
+19. What will be the final value of sum?
+let a = 4;
+let sum = a++ + ++a + a--;
+A)	13
+
+B)	12
+
+C)	14
+
+D)	15
+________________________________________
+20. What will be the output of the following code?
+let i = 2;
+console.log(i-- + ++i);
+A)	3
+
+B)	4
+
+C)	2
+
+D)	5
+________________________________________
+21. What will the following code return?
+let x = 0;
+let y = x-- - --x + ++x;
+A)	-1
+
+B)	0
+
+C)	1
+
+D)	2
+________________________________________
+22. What will be the output of the following code?
+let x = 10;
+let y = --x + x-- + ++x;
+A)	28
+
+B)	27
+
+C)	29
+
+D)	26
+________________________________________
+23. What will be the result of this expression?
+let n = 5;
+let result = n++ + --n - ++n;
+A)	7
+
+B)	6
+
+C)	5
+
+D)	8
+________________________________________
+24. What will be the output of this code?
+let x = 5;
+x = x-- - --x + ++x - x++;
+A)	2
+
+B)	3
+
+C)	4
+
+D)	1
+________________________________________
+25. What is the final value of result?
+let a = 8;
+let result = a-- + a++ + --a + ++a;
+A)	32
+
+B)	31
+
+C)	30
+
+D)	29
+________________________________________
+26. What will the following code return?
+let x = 7;
+let y = 9;
+let z = x-- === 7 && y++ === 9;
+console.log(z, x, y);
+A)	true, 6, 9
+
+B)	false, 6, 9
+
+C)	true, 6, 10
+
+D)	false, 7, 10
+________________________________________
+27. What is the result of the following code?
+let a = 10;
+let b = 5;
+let result = a++ >= 10 || --b < 5;
+console.log(result, a, b);
+A)	true, 11, 4
+
+B)	false, 11, 4
+
+C)	true, 10, 4
+
+D)	false, 11, 5
+________________________________________
+28. What will be the output of this code?
+let x = 6;
+let y = 3;
+let result = ++x > 6 && --y < 3;
+console.log(result, x, y);
+A)	true, 7, 2
+
+B)	false, 7, 3
+
+C)	true, 6, 2
+
+D)	false, 7, 2
+________________________________________
+29. What is the output of the following code?
+let p = 0;
+let q = 5;
+let result = p++ === 0 && --q >= 5;
+console.log(result, p, q);
+A)	true, 1, 4
+
+B)	false, 1, 5
+
+C)	false, 0, 5
+
+D)	true, 0, 4
+________________________________________
+30. What will be the result of the following code?
+let x = 10;
+let y = 20;
+let result = x-- <= 10 || ++y > 20;
+console.log(result, x, y);
+A)	true, 9, 21
+
+B)	false, 10, 20
+
+C)	false, 9, 20
+
+D)	true, 10, 21
+________________________________________
+31. What will the following code return?
+let a = 2;
+let b = 3;
+let result = a++ < 3 && b-- > 2 || ++a === 4;
+console.log(result, a, b);
+A)	true, 4, 3
+
+B)	false, 4, 3
+
+C)	true, 4, 2
+
+D)	false, 3, 2
+________________________________________
+32. What is the result of this expression?
+let x = 4;
+let y = 8;
+let result = x-- >= 4 || ++y === 9 && --x > 3;
+console.log(result, x, y);
+A)	false, 3, 9
+
+B)	true, 3, 8
+
+C)	false, 3, 8
+
+D)	true, 2, 9
+________________________________________
+33. What will the following code output?
+let a = 5;
+let b = 10;
+let result = --a === 5 || ++b > 10 && a-- === 4;
+console.log(result, a, b);
+A)	true, 4, 11
+
+B)	false, 4, 11
+
+C)	true, 5, 11
+
+D)	false, 4, 10
+________________________________________
+34. What will be the output of the following code?
+let p = 2;
+let q = 4;
+let result = p++ < 3 && ++q > 4 || q-- === 4;
+console.log(result, p, q);
+A)	true, 3, 3
+
+B)	false, 3, 4
+
+C)	true, 2, 4
+
+D)	false, 2, 3
+________________________________________
+35. What will be the result of this expression?
+let x = 3;
+let y = 6;
+let result = --x === 2 && ++y === 7 || x++ > 2;
+console.log(result, x, y);
+A)	true, 3, 7
+
+B)	false, 2, 6
+
+C)	true, 2, 7
+
+D)	false, 3, 7
+________________________________________
+36. What is the output of the following code?
+let p = 1;
+let q = 5;
+let result = p++ > 1 || q-- <= 5 && ++p === 3;
+console.log(result, p, q);
+A)	true, 3, 4
+
+B)	false, 2, 4
+
+C)	true, 3, 5
+
+D)	false, 2, 5
+________________________________________
+37. What will the following code print?
+let a = 5;
+let b = 7;
+let result = a-- < 5 && ++b > 7 || a-- === 4 && b++ === 8;
+console.log(result, a, b);
+A)	true, 3, 8
+
+B)	false, 4, 8
+
+C)	true, 4, 9
+
+D)	false, 3, 7
+________________________________________
+38. What will be the result of this expression?
+let a = 10;
+let b = 15;
+let result = --a > 9 || b-- < 15 && ++a === 9;
+console.log(result, a, b);
+A)	true, 9, 15
+
+B)	false, 9, 14
+
+C)	true, 10, 14
+
+D)	false, 9, 13
+________________________________________
+39. What will be the output of the following code?
+let x = 8;
+let y = 12;
+let result = x-- === 8 && ++y === 13 || x++ < 8;
+console.log(result, x, y);
+A)	true, 8, 13
+
+B)	false, 8, 12
+
+C)	true, 7, 13
+
+D)	false, 9, 12
+________________________________________
+40. What will the following code return?
+let p = 4;
+let q = 6;
+let result = p++ === 5 && --q === 5 || ++p > 4;
+console.log(result, p, q);
+A)	true, 6, 5
+
+B)	false, 5, 5
+
+C)	true, 5, 6
+
+D)	false, 5, 7
+________________________________________
+
+ANSWERS:
+Here are the answers in bold for each question:
+
+1. B) 6
+2. A) 9
+3. B) Increases the value by 1
+4. A) 3
+5. B) x++ increments after using it, while ++x increments before
+6. B) 2
+7. A) 1
+8. C) 9
+9. B) 15
+10. C) Results in NaN
+11. C) 10
+12. A) 17
+13. B) 22
+14. B) 16
+15. B) 1
+16. C) -1
+17. B) 5
+18. B) --z
+19. A) 13
+20. A) 3
+21. A) -1
+22. B) 27
+23. A) 7
+24. A) 2
+25. B) 31
+26. C) true, 6, 10
+27. A) true, 11, 4
+28. B) false, 7, 3
+29. A) true, 1, 4
+30. A) true, 9, 21
+31. C) true, 4, 2
+32. B) true, 3, 8
+33. A) true, 4, 11
+34. A) true, 3, 3
+35. A) true, 3, 7
+36. B) false, 2, 4
+37. A) true, 3, 8
+38. B) false, 9, 14
+39. C) true, 7, 13
+40. A) true, 6, 5

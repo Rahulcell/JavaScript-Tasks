@@ -1,0 +1,129 @@
+
+Task 1
+
+var age = 10;	
+var result = (age < 5) ? "Free Entry For the children" : (age >= 5 && age <= 12) ? "Your ticket price is 10$ with a 50% discount applied" : "Your ticket price is 20$";
+console.log(result);
+
+Task 2
+var time = 24;
+var result = (time > 0 && time <= 10) ? "Good Morning" : (time > 10 && time < 4) ? "Good Afternoon" : (time > 4 && time <= 24) ? "Good Night" : "enter the correct time"
+console.log(result);
+
+Task 3
+var num = 0;
+var result = (num > 0) ? "Its a Positive Number" :(num <0) ? "Its a negative number" : "Its a zero"
+console.log(result);
+Task 4
+var mem = "premium";
+var result = (mem == "basic") ? "Access to only free books." : (mem == "standard") ? "Access to free books and discounted paid books." :(mem == "premium") ? "Access to all books, including exclusive content." : "Enter your Membership correctly"
+console.log(result);
+Task 5
+var mem = "rejkcniek";
+var amt = 100;
+
+if (mem === "regular" && amt < 100) {
+    console.log("No discount for purchases under $100.");
+}
+else if (mem === "regular" && (amt >= 100 && amt <= 500)) {
+    console.log("A 5% discount for purchases between $100 and $500.");
+}
+else if (mem === "regular" && amt > 500) {
+    console.log("A 20% discount for purchases over $500.");
+}
+else if (mem === "vip" && amt < 100) {
+    console.log("A 10% discount for purchases under $100.");
+}
+else if (mem === "vip" && amt >= 100 && amt <= 500) {
+    console.log("A 15% discount for purchases between $100 and $500.");
+}
+else if (mem === "vip" && amt > 500) {
+    console.log("A 20% discount for purchases over $500.");
+}
+else {
+    console.log("Enter your details correctly.");
+}
+
+Task 6
+var gpa = 2.5;
+var leader = 2;
+var css = 150;
+
+if (gpa >= 3.5){
+    console.log("You are eligible fpr Merit-Based Scholarship");
+}
+else if (leader >= 2 && gpa >= 3.0 ) {
+    console.log("You are eligible for leadership Scholarship")
+}
+else if(css >=100 && gpa >= 2.5){
+    console.log("You are eligible for Community Service Scholarship")
+}else {
+    console.log("Enter your details correctly")
+}
+Task 7
+var day = "weekdays";
+var age = 70;
+if(day == "weekdays" && (age <= 12 || age >= 65)){
+    console.log("you recieve a 50% of discount on ticket price");
+}
+else if(day == "weekdays" && (age > 12 || age < 65)){
+    console.log("you ticket price is 12$");
+}
+else if(day == "weekend" && (age <= 12 || age >= 65)){
+    console.log("you recieve a 30% of discount on ticket price");
+}
+else if(day == "weekend" && (age > 12 || age < 65)){
+    console.log("you ticket price is 15$");
+}
+Task 8
+var age = 19;
+var par = 12;
+var email = "rahuljakkula6@gmail.com";
+if (age >= 18 && par <= 100 && email === "rahuljakkula6@gmail.com"){
+  console.log("Your registration has been confirmed");
+}
+else if(age < 18){
+  console.log("you age is below 18 you're not allowed");
+}
+else if(par > 100){
+  console.log("the show has been full");
+}
+else{
+  console.log("enter valid credentials");
+}
+Task 9
+var teaType = "Masala";
+var addOn = "No Add-ons";
+
+var basePrice = 0;
+var addOnPrice = 0;
+
+if (teaType === "Regular") {
+    basePrice = 15;
+} 
+else if (teaType === "Masala") {
+    basePrice = 20;
+} 
+else if (teaType === "Ginger") {
+    basePrice = 25;
+} 
+else {
+    console.log("Invalid tea type selected."); return
+}
+
+if (addOn === "Extra Sugar") {
+    addOnPrice = 2.50;
+} 
+else if (addOn === "Extra Milk") {
+    addOnPrice = 5;
+} 
+else if (addOn === "No Add-ons") {
+    addOnPrice = 0;
+} 
+else {
+    console.log("Invalid add-on selected.");
+}
+
+var total = basePrice + addOnPrice;
+
+console.log("your total bill is" + total);

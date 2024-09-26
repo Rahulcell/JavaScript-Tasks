@@ -1,0 +1,1107 @@
+1.	How many times will the following loop execute?
+ 	let i = 0;
+while (i < 3) {
+  console.log(i);
+  i++;
+}
+–	
+A)	3
+–	
+B)	2
+–	
+C)	4
+–	
+D)	Infinite
+2.	What is the output of the following code?
+ 	let i = 5;
+while (i > 0) {
+  console.log(i);
+  i--;
+}
+–	
+A)	5, 4, 3, 2, 1
+–	
+B)	4, 3, 2, 1, 0
+–	
+C)	5, 4, 3, 2, 1, 0
+–	
+D)	5, 4, 3, 2
+3.	How many times will this loop execute?
+ 	let i = 2;
+while (i <= 6) {
+  i++;
+}
+–	
+A)	4
+–	
+B)	5
+–	
+C)	6
+–	
+D)	Infinite
+4.	What is printed by the following code?
+ 	let count = 0;
+while (count < 3) {
+  console.log(count);
+  count++;
+}
+–	
+A)	1, 2, 3
+–	
+B)	0, 1, 2
+–	
+C)	2, 1, 0
+–	
+D)	3, 2, 1
+5.	How many times does the loop run?
+ 	let i = 10;
+while (i > 0) {
+  i -= 2;
+}
+–	
+A)	5
+–	
+B)	4
+–	
+C)	6
+–	
+D)	3
+6.	What will this loop print?
+ 	let i = 1;
+while (i < 5) {
+  console.log(i);
+  i += 2;
+}
+–	
+A)	1, 3
+–	
+B)	1, 3, 5
+–	
+C)	2, 4
+–	
+D)	1, 2, 3, 4
+7.	What will happen if i starts at 0?
+ 	let i = 0;
+while (i) {
+  console.log(i);
+}
+–	
+A)	0
+–	
+B)	Infinite loop
+–	
+C)	No output
+–	
+D)	1
+8.	What is the output of this while loop?
+ 	let i = 0;
+while (i++ < 3) {
+  console.log(i);
+}
+–	
+A)	0, 1, 2
+–	
+B)	1, 2, 3
+–	
+C)	2, 3, 4
+–	
+D)	1, 2, 3, 4
+9.	How many times will this loop run?
+ 	let i = 1;
+while (i <= 5) {
+  i *= 2;
+}
+–	
+A)	2
+–	
+B)	3
+–	
+C)	4
+–	
+D)	Infinite
+10.	What will the following code output?
+ 	let i = 3;
+while (i) {
+  console.log(i);
+  i--;
+}
+–	
+A)	3, 2, 1
+–	
+B)	3, 2, 1, 0
+–	
+C)	0, 1, 2, 3
+–	
+D)	No output
+________________________________________
+11.	What is printed by this loop?
+ 	let i = 1;
+while (i < 4) {
+  console.log(i);
+  if (i === 2) break;
+  i++;
+}
+–	
+A)	1, 2
+–	
+B)	1, 2, 3
+–	
+C)	1, 2, 3, 4
+–	
+D)	Infinite loop
+12.	How many times does this do...while loop execute?
+ 	let i = 0;
+do {
+  i++;
+} while (i < 5);
+–	
+A)	4
+–	
+B)	5
+–	
+C)	6
+–	
+D)	Infinite loop
+13.	What is the output of this code?
+ 	let i = 5;
+do {
+  console.log(i);
+  i--;
+} while (i > 2);
+–	
+A)	5, 4, 3
+–	
+B)	5, 4, 3, 2
+–	
+C)	5, 4
+–	
+D)	Infinite loop
+14.	What is printed by this loop?
+ 	let i = 1;
+do {
+  console.log(i);
+  i++;
+} while (i < 4);
+–	
+A)	1, 2, 3
+–	
+B)	1, 2, 3, 4
+–	
+C)	0, 1, 2
+–	
+D)	3, 2, 1
+15.	What is printed by this loop?
+ 	let count = 0;
+do {
+  console.log(count);
+} while (false);
+–	
+A)	0
+–	
+B)	1
+–	
+C)	Infinite loop
+–	
+D)	No output
+16.	What will this code output?
+ 	let i = 1;
+do {
+  i++;
+} while (i <= 1);
+console.log(i);
+–	
+A)	1
+–	
+B)	2
+–	
+C)	3
+–	
+D)	0
+17.	How many times will this loop run?
+ 	let i = 3;
+do {
+  console.log(i);
+  i--;
+} while (i >= 1);
+–	
+A)	3
+–	
+B)	4
+–	
+C)	5
+–	
+D)	Infinite loop
+18.	How many times will the do...while loop iterate in this example?
+ 	let i = 10;
+do {
+  console.log(i);
+  i -= 3;
+} while (i > 0);
+–	
+A)	3
+–	
+B)	4
+–	
+C)	5
+–	
+D)	Infinite
+19.	What is the result of this loop?
+ 	let i = 0;
+while (i < 2) {
+  i++;
+  if (i === 2) break;
+  console.log(i);
+}
+–	
+A)	1
+–	
+B)	1, 2
+–	
+C)	0, 1
+–	
+D)	0, 1, 2
+20.	What will happen in this do...while loop?
+ 	let i = 0;
+do {
+  console.log(i);
+} while (i > 0);
+–	
+A)	0
+–	
+B)	No output
+–	
+C)	Infinite loop
+–	
+D)	Error
+________________________________________
+21.	How many times will the inner loop run in total?
+ 	let i = 0;
+while (i < 3) {
+  let j = 0;
+  while (j < 2) {
+    console.log(i, j);
+    j++;
+  }
+  i++;
+}
+–	
+A)	6
+–	
+B)	4
+–	
+C)	5
+–	
+D)	9
+22.	How many times will both loops iterate?
+ 	let i = 1;
+while (i <= 3) {
+  let j = 1;
+  while (j <= i) {
+    console.log(i, j);
+    j++;
+  }
+  i++;
+}
+–	
+A)	9
+–	
+B)	6
+–	
+C)	4
+–	
+D)	7
+23.	What will this nested loop print?
+ 	let i = 0;
+while (i < 2) {
+  let j = i;
+  while (j >= 0) {
+    console.log(i, j);
+    j--;
+  }
+  i++;
+}
+–	
+A)	0, 0; 1, 0; 1, 1
+–	
+B)	1, 0; 1, 1
+–	
+C)	0, 0; 1, 0
+–	
+D)	1, 1; 0, 0
+24.	How many total iterations will occur?
+ 	let i = 0;
+while (i < 4) {
+  let j = i;
+
+
+  do {
+    console.log(j);
+    j--;
+  } while (j > 0);
+  i++;
+}
+–	
+A)	5
+–	
+B)	6
+–	
+C)	7
+–	
+D)	8
+25.	How many total iterations will this nested loop perform?
+ 	let i = 0;
+while (i < 3) {
+  let j = 0;
+  do {
+    console.log(j);
+    j++;
+  } while (j < 3);
+  i++;
+}
+–	
+A)	6
+–	
+B)	9
+–	
+C)	12
+–	
+D)	3
+________________________________________
+26.	What will happen with the following nested while loop?
+ 	let i = 0;
+while (i < 3) {
+  let j = 0;
+  while (j < 2) {
+    if (i === 1) break;
+    console.log(i, j);
+    j++;
+  }
+  i++;
+}
+–	
+A)	0, 0; 0, 1; 2, 0; 2, 1
+–	
+B)	0, 0; 1, 0; 2, 0; 2, 1
+–	
+C)	Infinite loop
+–	
+D)	Error
+________________________________________
+27.	What is the output of this nested loop?
+ 	let i = 0;
+do {
+  let j = 0;
+  do {
+    console.log(i, j);
+    j++;
+  } while (j < 2);
+  i++;
+} while (i < 2);
+–	
+A)	0, 0; 0, 1; 1, 0; 1, 1
+–	
+B)	0, 1; 1, 0
+–	
+C)	1, 0; 1, 1
+–	
+D)	0, 0; 1, 1
+28.	How many total iterations will occur in this nested loop?
+ 	let i = 1;
+do {
+  let j = i;
+  while (j > 0) {
+    console.log(j);
+    j--;
+  }
+  i++;
+} while (i <= 3);
+–	
+A)	3
+–	
+B)	5
+–	
+C)	6
+–	
+D)	7
+29.	How many times will the outer loop run?
+ 	let i = 2;
+while (i < 5) {
+  let j = 1;
+  while (j < i) {
+    console.log(i, j);
+    j++;
+  }
+  i++;
+}
+–	
+A)	3
+–	
+B)	5
+–	
+C)	4
+–	
+D)	6
+30.	How many times will the do...while loop run in total?
+ 	let i = 0;
+do {
+  let j = 3;
+  while (j > i) {
+    console.log(j);
+    j--;
+  }
+  i++;
+} while (i < 3);
+–	
+A)	6
+–	
+B)	9
+–	
+C)	7
+–	
+D)	8
+31.	What is the result of this loop?
+ 	let i = 3;
+while (i > 0) {
+  let j = 0;
+  do {
+    console.log(i, j);
+    j++;
+  } while (j < i);
+  i--;
+}
+–	
+A)	3, 0; 3, 1; 3, 2; 2, 0; 2, 1; 1, 0
+–	
+B)	3, 0; 3, 1; 3, 2; 2, 0; 2, 1
+–	
+C)	3, 2; 2, 1; 1, 0
+–	
+D)	Infinite loop
+32.	How many total iterations will this nested loop perform?
+ 	let i = 1;
+while (i <= 3) {
+  let j = i;
+  do {
+    console.log(i, j);
+    j--;
+  } while (j > 0);
+  i++;
+}
+–	
+A)	5
+–	
+B)	6
+–	
+C)	9
+–	
+D)	4
+33.	How many iterations occur in this example?
+ 	let i = 2;
+while (i < 4) {
+  let j = 0;
+  do {
+    console.log(i, j);
+    j++;
+  } while (j < 2);
+  i++;
+}
+–	
+A)	4
+–	
+B)	6
+–	
+C)	3
+–	
+D)	5
+34.	How many times does the following nested loop print output?
+ 	let i = 1;
+while (i <= 2) {
+  let j = 1;
+  while (j <= 2) {
+    console.log(i, j);
+    j++;
+  }
+  i++;
+}
+–	
+A)	4
+–	
+B)	2
+–	
+C)	5
+–	
+D)	6
+35.	What will the output of this nested while loop be?
+ 	let i = 0;
+while (i < 2) {
+  let j = 2;
+  while (j > 0) {
+    console.log(i, j);
+    j--;
+  }
+  i++;
+}
+–	
+A)	0, 2; 0, 1; 1, 2; 1, 1
+–	
+B)	0, 0; 1, 0
+–	
+C)	2, 1; 1, 1
+–	
+D)	0, 0; 1, 1
+36.	What will this code output?
+ 	let i = 0;
+while (i < 3) {
+  let j = 3;
+  do {
+    console.log(i, j);
+    j--;
+  } while (j > 0);
+  i++;
+}
+–	
+A)	3, 2; 2, 1
+–	
+B)	0, 3; 0, 2; 0, 1; 1, 3; 1, 2; 1, 1; 2, 3; 2, 2; 2, 1
+–	
+C)	3, 0; 2, 1
+–	
+D)	Infinite loop
+37.	What will the following code output?
+ 	let i = 2;
+while (i > 0) {
+  let j = i;
+  do {
+    console.log(i, j);
+    j--;
+  } while (j > 0);
+  i--;
+}
+–	
+A)	2, 2; 2, 1; 1, 1
+–	
+B)	1, 0; 2, 1
+–	
+C)	2, 2; 1, 1
+–	
+D)	Infinite loop
+38.	What will this code output?
+ 	let i = 1;
+while (i <= 3) {
+  let j = 1;
+  do {
+    if (j === 2) break;
+    console.log(i, j);
+    j++;
+  } while (j <= 3);
+  i++;
+}
+–	
+A)	1, 1; 2, 1; 3, 1
+–	
+B)	1, 1; 2, 2; 3, 3
+–	
+C)	1, 1; 1, 2; 1, 3
+–	
+D)	Infinite loop
+39.	What is printed by this code?
+ 	let i = 1;
+do {
+  let j = 3;
+  while (j > i) {
+    console.log(i, j);
+    j--;
+  }
+  i++;
+} while (i < 3);
+–	
+A)	1, 3; 1, 2
+–	
+B)	1, 3; 1, 2; 2, 3
+–	
+C)	1, 1; 1, 2; 1, 3
+–	
+D)	2, 3; 3, 3
+40.	What will happen when this code executes?
+ 	let i = 0;
+while (i < 2) {
+  let j = i;
+  while (j < 3) {
+    if (j === 1) continue;
+    console.log(i, j);
+    j++;
+  }
+  i++;
+}
+–	
+A)	Infinite loop
+–	
+B)	No output
+–	
+C)	Error
+–	
+D)	No infinite loop, but no output due to continue
+________________________________________
+41.	What will this nested loop print?
+ 	let i = 3;
+do {
+  let j = 2;
+  while (j > 0) {
+    if (j === 1) break;
+    console.log(i, j);
+    j--;
+  }
+  i--;
+} while (i > 0);
+–	
+A)	3, 2; 2, 2; 1, 2
+–	
+B)	3, 2; 3, 1; 2, 2
+–	
+C)	1, 1; 2, 2
+–	
+D)	1, 0; 2, 1
+42.	What will be printed in this nested loop?
+ 	let i = 1;
+while (i <= 3) {
+  let j = 3;
+  while (j > i) {
+    console.log(j);
+    j--;
+  }
+  i++;
+}
+–	
+A)	3, 2
+–	
+B)	3, 2; 3, 2
+–	
+C)	3, 2; 2, 1
+–	
+D)	Infinite loop
+43.	What will this do...while loop print?
+ 	let
+i = 4; do { let j = i; while (j > 2) { console.log(i, j); j–; } i–; } while (i > 2); ``` - A) 4, 4; 4, 3; 3, 3 - B) 4, 4; 3, 3 - C) 4, 3; 3, 2 - D) Infinite loop
+44.	How many times will the do...while loop print values?
+ 	let i = 0;
+do {
+  let j = 3;
+  while (j > i) {
+    console.log(i, j);
+    j--;
+  }
+  i++;
+} while (i < 2);
+–	
+A)	4
+–	
+B)	6
+–	
+C)	5
+–	
+D)	7
+45.	How many total iterations in this nested loop?
+ 	let i = 2;
+while (i > 0) {
+  let j = i;
+  do {
+    console.log(j);
+    j--;
+  } while (j > 0);
+  i--;
+}
+–	
+A)	2
+–	
+B)	4
+–	
+C)	3
+–	
+D)	5
+________________________________________
+46.	What will this code output?
+ 	let i = 0;
+while (i < 4) {
+  if (i === 2) {
+    console.log("Special case");
+  }
+  i++;
+}
+–	
+A)	Special case
+–	
+B)	0, 1, Special case, 3
+–	
+C)	Special case, 0, 1, 3
+–	
+D)	No output
+47.	How many times will this loop print values?
+ 	let i = 1;
+do {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+  i++;
+} while (i <= 5);
+–	
+A)	2
+–	
+B)	3
+–	
+C)	4
+–	
+D)	5
+48.	What is the output of this loop?
+ 	let i = 0;
+while (i < 4) {
+  if (i === 2) break;
+  console.log(i);
+  i++;
+}
+–	
+A)	0, 1, 2
+–	
+B)	0, 1
+–	
+C)	0, 1, 3
+–	
+D)	Infinite loop
+49.	What will be the result of the following code?
+ 	let i = 1;
+while (i <= 5) {
+  if (i % 2 !== 0) {
+    console.log(i);
+  }
+  i++;
+}
+–	
+A)	1, 2, 3, 4, 5
+–	
+B)	1, 3, 5
+–	
+C)	2, 4
+–	
+D)	Infinite loop
+50.	What will the output of this loop be?
+ 	let i = 3;
+while (i > 0) {
+  let j = 0;
+  while (j < i) {
+    if (i === j) console.log("Equal");
+    j++;
+  }
+  i--;
+}
+–	
+A)	Equal, Equal
+–	
+B)	Equal
+–	
+C)	Equal, Equal, Equal
+–	
+D)	No output
+________________________________________
+51.	How many times will this code print values?
+ 	let i = 1;
+while (i <= 4) {
+  let j = 2;
+  while (j >= i) {
+    if (i % 2 === 0) console.log(i, j);
+    j--;
+  }
+  i++;
+}
+–	
+A)	3
+–	
+B)	4
+–	
+C)	2
+–	
+D)	6
+52.	What will the output be?
+ 	let i = 1;
+do {
+  if (i === 3) {
+    break;
+  } else {
+    console.log(i);
+  }
+  i++;
+} while (i <= 5);
+–	
+A)	1, 2
+–	
+B)	1, 2, 3
+–	
+C)	1, 2, 3, 4, 5
+–	
+D)	No output
+53.	What will the following code output?
+ 	let i = 0;
+while (i < 3) {
+  let j = 0;
+  while (j < 3) {
+    if (i + j === 2) console.log(i, j);
+    j++;
+  }
+  i++;
+}
+–	
+A)	0, 2; 1, 1; 2, 0
+–	
+B)	0, 2; 1, 1
+–	
+C)	0, 0; 1, 1; 2, 2
+–	
+D)	Infinite loop
+54.	What will happen in this nested loop?
+ 	let i = 0;
+while (i < 5) {
+  let j = i;
+  do {
+    if (j === 2) break;
+    console.log(i, j);
+    j++;
+  } while (j < 4);
+  i++;
+}
+–	
+A)	0, 0; 0, 1; 1, 1; 1, 2
+–	
+B)	0, 0; 0, 1; 1, 1; 1, 2; 2, 2
+–	
+C)	0, 0; 0, 1; 1, 1; 1, 2; 2, 2; 3, 3
+–	
+D)	Infinite loop
+55.	How many times will this loop execute before stopping?
+ 	let i = 5;
+while (i >= 0) {
+  if (i === 3) break;
+  console.log(i);
+  i--;
+}
+–	
+A)	5, 4
+–	
+B)	5, 4, 3
+–	
+C)	5, 4, 3, 2
+–	
+D)	Infinite loop
+56.	What is the output of this code with if condition inside the loop?
+ 	let i = 1;
+do {
+  let j = i;
+  while (j > 0) {
+    if (j % 2 === 0) console.log(i, j);
+    j--;
+  }
+  i++;
+} while (i <= 3);
+–	
+A)	2, 2
+–	
+B)	2, 2; 3, 2
+–	
+C)	1, 2; 2, 2; 3, 2
+–	
+D)	Infinite loop
+57.	What is the output of this code?
+ 	let i = 0;
+while (i < 4) {
+  if (i === 2) {
+    console.log("Skipping");
+    i++;
+    continue;
+  }
+  console.log(i);
+  i++;
+}
+–	
+A)	0, 1, Skipping, 3
+–	
+B)	0, 1, 3
+–	
+C)	0, 1, 2, 3
+–	
+D)	Infinite loop
+58.	What will the following loop print?
+ 	let i = 0;
+do {
+  if (i % 2 !== 0) {
+    console.log(i);
+  }
+  i++;
+} while (i < 5);
+–	
+A)	1, 3
+–	
+B)	2, 4
+–	
+C)	1, 2, 3, 4
+–	
+D)	No output
+59.	How many iterations will occur in this code?
+ 	let i = 1;
+while (i < 6) {
+  if (i === 4) break;
+  console.log(i);
+  i++;
+}
+–	
+A)	3
+–	
+B)	4
+–	
+C)	5
+–	
+D)	Infinite loop
+60.	What is the final value of i in this loop?
+ 	let i = 0;
+while (i < 5) {
+  if (i === 3) {
+    i += 2;
+    continue;
+  }
+  console.log(i);
+  i++;
+}
+–	
+A)	4
+–	
+B)	5
+–	
+C)	6
+–	
+D)	Infinite loop
+________________________________________
+ANSWERS
+
+Here are the answers to the questions:
+
+1. A) 3  
+   The loop executes 3 times for `i = 0, 1, 2`.
+
+2. A) 5, 4, 3, 2, 1  
+   The `while` loop decrements `i` from 5 to 1.
+
+3. A) 4  
+   The loop runs for `i = 2, 3, 4, 5, 6`, but increments `i` each time, so it runs 4 times.
+
+4. B) 0, 1, 2  
+   The `while` loop prints values of `count` from 0 to 2 before the condition fails.
+
+5. A) 5  
+   The loop decrements `i` by 2 each time, so it runs for `i = 10, 8, 6, 4, 2`.
+
+6. A) 1, 3  
+   The loop increments `i` by 2, starting from 1, so the output is `1, 3`.
+
+7. C) No output  
+   Since `i = 0` evaluates to false, the loop doesn't execute.
+
+8. B) 1, 2, 3  
+   The post-increment causes `i` to be incremented before the next iteration's comparison.
+
+9. B) 3  
+   The loop runs for `i = 1, 2, 4`, as `i` is multiplied by 2 each time.
+
+10. A) 3, 2, 1  
+    The loop runs for `i = 3, 2, 1`, and stops when `i = 0`.
+
+11. A) 1, 2  
+    The loop breaks after printing `i = 2`.
+
+12. B) 5  
+    The `do...while` loop runs 5 times because `i` increments from 0 to 5.
+
+13. A) 5, 4, 3  
+    The `do...while` loop runs while `i > 2`, printing `5, 4, 3`.
+
+14. A) 1, 2, 3  
+    The loop runs for `i = 1, 2, 3`.
+
+15. A) 0  
+    The `do...while` loop runs once before exiting.
+
+16. B) 2  
+    The loop runs once because `i` starts at 1, then increments to 2, and breaks out of the loop.
+
+17. B) 4  
+    The loop runs for `i = 3, 2, 1, 0`.
+
+18. B) 4  
+    The loop runs for `i = 10, 7, 4, 1`.
+
+19. A) 1  
+    The loop breaks when `i` reaches 2, so only `1` is printed.
+
+20. A) 0  
+    The loop runs once, printing `0`, and then exits because the condition `i > 0` is false.
+
+21. A) 6  
+    The inner loop runs twice for each of the three iterations of the outer loop (`i = 0, 1, 2`), for a total of 6 iterations.
+
+22. B) 6  
+    The inner loop runs for `j = 1` when `i = 1`, for `j = 1, 2` when `i = 2`, and for `j = 1, 2, 3` when `i = 3`.
+
+23. A) 0, 0; 1, 0; 1, 1  
+    The loop prints pairs for each value of `i` and `j`.
+
+24. C) 7  
+    The inner `do...while` loop iterates once when `i = 0`, twice when `i = 1`, three times when `i = 2`, and once when `i = 3`, for a total of 7 iterations.
+
+25. B) 9  
+    The inner `do...while` loop runs 3 times for each of the 3 iterations of the outer loop (`i = 0, 1, 2`), for a total of 9 iterations.
+
+26. A) 0, 0; 0, 1; 2, 0; 2, 1  
+    The inner loop breaks when `i === 1`, but prints normally for `i = 0` and `i = 2`.
+
+27. A) 0, 0; 0, 1; 1, 0; 1, 1  
+    The `do...while` loops print pairs for each combination of `i` and `j`.
+
+28. B) 5  
+    The outer loop runs for `i = 1, 2, 3`, and the inner loop decrements `j` from `i` down to 1.
+
+29. A) 3  
+    The outer loop runs for `i = 2, 3, 4`, and the inner loop iterates for each value of `i`.
+
+30. B) 9  
+    The outer loop runs for `i = 0, 1, 2`, and the inner loop iterates three times for each value of `i`.
+
+31. A) 3, 0; 3, 1; 3, 2; 2, 0; 2, 1; 1, 0  
+    The nested loop prints each pair of `i` and `j`.
+
+32. B) 6  
+    The outer loop runs for `i = 1, 2, 3`, and the inner loop prints pairs for each value of `i` and decrements `j` accordingly.
+
+33. B) 6  
+    The outer loop runs twice for `i = 2, 3`, and the inner loop iterates three times for each value of `i`.
+34. A) 4  
+35. A) 0, 2; 0, 1; 1, 2; 1, 1  
+36. B) 0, 3; 0, 2; 0, 1; 1, 3; 1, 2; 1, 1; 2, 3; 2, 2; 2, 1  
+37. A) 2, 2; 2, 1; 1, 1  
+38. A) 1, 1; 2, 1; 3, 1  
+39. B) 3, 2; 2, 2; 1, 2  
+40. D) No infinite loop, but no output due to continue  
+41. A) 3, 2; 2, 2; 1, 2  
+42. C) 3, 2; 2, 1  
+43. B) 4, 4; 4, 3; 3, 3  
+44. B) 6  
+45. C) 3  
+46. B) 0, 1, Special case, 3  
+47. A) 2  
+48. B) 4 times  
+49. C) 0  
+50. B) 1, 3
+51. D) 6  
+52. A) 1, 2  
+53. B) 0, 2; 1, 1  
+54. A) 0, 0; 0, 1; 1, 1; 1, 2  
+55. A) 5, 4  
+56. A) 2, 2  
+57. A) 0, 1, Skipping, 3  
+58. A) 1, 3  
+59. A) 3  
+60. B) 5  
