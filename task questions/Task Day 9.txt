@@ -1,0 +1,8 @@
+task:-
+1) WAP to print -1 to -10 without using >= operator.
+2) WAP to print sum of even digits in a number.
+input: Enter no: 8902
+output: 10
+3) WAP to print the sum of digits in a number using while loop.
+input: Enter a number: 123
+output: 6.

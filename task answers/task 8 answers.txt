@@ -1,0 +1,535 @@
+Basic Level
+1.	What is the default index of the first element in a JavaScript array?
+–	
+a)	1
+–	
+b)	0
+–	
+c)	-1
+–	
+d)	Length of the array
+Ans: A
+2.	What is the correct syntax for declaring an empty array in JavaScript?
+–	
+a)	var arr = ()
+–	
+b)	var arr = []
+–	
+c)	var arr = {}
+–	
+d)	var arr = null
+Ans: B
+3.	How do you access the second element in the array var arr = [1, 2, 3]?
+–	
+a)	arr[1]
+–	
+b)	arr[2]
+–	
+c)	arr[3]
+–	
+d)	arr[0]
+Ans: A
+4.	What loop would you use when you know the exact number of iterations beforehand?
+–	
+a)	while
+–	
+b)	do-while
+–	
+c)	for
+–	
+d)	for-in
+Ans:C
+5.	What does the following code output?
+ 	var arr = [10, 20, 30];
+for (var i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+}
+–	
+a)	10, 20, 30
+–	
+b)	30, 20, 10
+–	
+c)	undefined
+–	
+d)	Error
+Ans:B
+6.	In a while loop, the condition is checked:
+–	
+a)	Before each iteration
+–	
+b)	After each iteration
+–	
+c)	Only once at the beginning
+–	
+d)	Only once at the end
+Ans:A
+
+7.	Which loop is guaranteed to execute at least once?
+–	
+a)	while
+–	
+b)	do-while
+–	
+c)	for
+–	
+d)	for-of
+Ans:B
+8.	How do you assign the value 5 to the first index of var arr = [1, 2, 3]?
+–	
+a)	arr[1] = 5
+–	
+b)	arr[0] = 5
+–	
+c)	arr[2] = 5
+–	
+d)	arr[3] = 5
+Ans:B
+9.	What will the following code output?
+ 	var arr = [1, 2, 3];
+var i = 0;
+while (i < arr.length) {
+    console.log(arr[i]);
+    i++;
+}
+–	
+a)	1, 2, 3
+–	
+b)	3, 2, 1
+–	
+c)	undefined
+–	
+d)	Error
+Ans:A
+10.	What will the following code output? javascript     
+var arr = [1, 2, 3];     
+var i = 3;     
+do {        
+ console.log(arr[i]); 
+        i--;     } 
+while (i >= 0);
+–	
+a)	1, 2, 3
+–	
+b)	3, 2, 1
+–	
+c)	undefined, 3, 2, 1
+–	
+d)	Error
+Ans:C
+Intermediate Level
+11.	What is the correct way to iterate over each element in an array using for-of?
+–	
+a)	for (var i of arr) { console.log(i); }
+–	
+b)	for (var i in arr) { console.log(i); }
+–	
+c)	for (i = 0; i < arr.length; i++) { console.log(i); }
+–	
+d)	for (var i = 0; arr[i]; i++) { console.log(i); }
+Ans:A
+12.	What does the following code output? javascript     var arr = [10, 20, 30];     for (var i in arr) {         console.log(i);     }
+–	
+a)	10, 20, 30
+–	
+b)	0, 1, 2
+–	
+c)	1, 2, 3
+–	
+d)	Undefined
+Ans:B
+13.	What does the following code output? javascript     var arr = [10, 20, 30];     for (var i of arr) {         console.log(i);     }
+–	
+a)	10, 20, 30
+–	
+b)	0, 1, 2
+–	
+c)	undefined
+–	
+d)	Error
+Ans:B
+14.	Which loop is best suited for iterating through object properties?
+–	
+a)	for
+–	
+b)	while
+–	
+c)	for-in
+–	
+d)	for-of
+Ans:C
+
+15.	What is the output of the following code? javascript     
+var arr = [1, 2, 3];     
+for (var i = 0; i < arr.length; i++) {         
+if (arr[i] == 2) 
+continue;         
+console.log(arr[i]);     
+}
+–	
+a)	1, 2, 3
+–	
+b)	1, 3
+–	
+c)	2, 3
+–	
+d)	3
+Ans:B
+16.	How would you skip over the third element in this array and continue looping? javascript     var arr = [1, 2, 3, 4];
+–	
+a)	Use break
+–	
+b)	Use continue with condition if (i === 2)
+–	
+c)	Modify loop condition i !== 2
+–	
+d)	None of the above
+Ans:B
+17.	What will the following code output? javascript     var arr = [1, 2, 3];     for (var i = 0; i < arr.length; i++) {         if (i == 1) break;         console.log(arr[i]);     }
+–	
+a)	1, 2
+–	
+b)	1
+–	
+c)	2
+–	
+d)	Error
+Ans:B
+18.	How would you iterate over an array in reverse order using a for loop?
+–	
+a)	for (var i = arr.length; i >= 0; i++)
+–	
+b)	for (var i = arr.length - 1; i >= 0; i--)
+–	
+c)	for (var i = 0; i < arr.length; i++)
+–	
+d)	for (var i = 0; arr[i] != null; i++)
+Ans:B
+19.	How would you loop through an array and print only the even values?
+–	
+a)	for (var i of arr) { if (i % 2 == 0) console.log(i); }
+–	
+b)	for (var i in arr) { if (arr[i] % 2 == 0) console.log(arr[i]); }
+–	
+c)	for (var i = 0; i < arr.length; i++) { if (arr[i] % 2 == 0) console.log(arr[i]); }
+–	
+d)	All of the above
+Ans:D
+20.	What will the following code output? javascript     
+var arr = [1, 2, 3, 4, 5];     
+var i = 0;     
+while (i < arr.length) {         
+if (arr[i] === 3) break;         
+console.log(arr[i]);         
+i++;     
+}
+–	
+a)	1, 2, 3
+–	
+b)	1, 2
+–	
+c)	1
+–	
+d)	1, 2, 3, 4
+Ans:B
+
+Advanced Level
+21.	How would you manually implement an infinite loop that prints array values continuously?
+–	
+a)	for (var i = 0;; i++)
+–	
+b)	while (true)
+–	
+c)	do {} while (true)
+–	
+d)	All of the above
+Ans:D
+22.	Which loop would best suit a situation where you need to print the array’s contents until a specific condition is met?
+–	
+a)	while
+–	
+b)	for
+–	
+c)	do-while
+–	
+d)	Both a and c
+Ans:D
+23.	What does the following code output? javascript     var arr = [1, 2, 3];     for (var i in arr) {         arr[i] += 1;     }     console.log(arr);
+–	
+a)	[2, 3, 4]
+–	
+b)	[1, 2, 3]
+–	
+c)	Error
+–	
+d)	Undefined
+Ans:A
+24.	In a for-of loop, what does the loop iterate over?
+–	
+a)	Indexes
+–	
+b)	Values
+–	
+c)	Both indexes and values
+–	
+d)	None of the above
+Ans:B
+25.	What is the correct syntax for a for-of loop?
+–	
+a)	for (var i in arr)
+–	
+b)	for (var i = 0; i < arr.length; i++)
+–	
+c)	for (var i of arr)
+–	
+d)	for (arr[i] of arr)
+Ans:C
+26.	How would you stop the iteration and
+exit the loop once a specific value is encountered in an array? - a) continue - b) break - c) return - d) exit
+Ans:B
+27.	What does the following code output? javascript     var arr = [1, 2, 3];     for (var i in arr) {         if (i == 2) break;         console.log(i);     }
+–	
+a)	1, 2
+–	
+b)	0, 1
+–	
+c)	1, 2, 3
+–	
+d)	Error
+Ans:A
+28.	How would you ensure a loop stops when it reaches a specific value in an array?
+–	
+a)	if (arr[i] == value) break;
+–	
+b)	if (arr[i] != value) continue;
+–	
+c)	if (arr[i] > value) break;
+–	
+d)	All of the above
+Ans:A
+29.	How do you iterate through an array without using the array’s .length property?
+–	
+a)	while(arr[i])
+–	
+b)	while(arr[i] !== undefined)
+–	
+c)	do {} while (arr[i])
+–	
+d)	All of the above
+Ans:D
+30.	Which of the following loops would iterate over the keys of an array?
+–	
+a)	for
+–	
+b)	for-in
+–	
+c)	for-of
+–	
+d)	While
+Ans:C
+
+31.	What does the following code output? javascript     
+var arr = [1, 2, 3, 4];     
+var sum = 0;     
+for (var i = 0; i < arr.length; i++) { 
+        sum += arr[i];     }     console.log(sum);
+–	
+a)	10
+–	
+b)	6
+–	
+c)	3
+–	
+d)	Error
+Ans:A
+
+32.	How would you iterate over an array and calculate the product of all elements in JavaScript using a while loop?
+–	
+a)	Use a for-in loop
+–	
+b)	Use while (i < arr.length)
+–	
+c)	Use for (var i of arr)
+–	
+d)	Use for (var i = 0; i < arr.length; i++)
+Ans:B
+33.	What is the primary difference between for-in and for-of loops when iterating over arrays?
+–	
+a)	for-in iterates over values, for-of over indexes
+–	
+b)	for-in iterates over indexes, for-of over values
+–	
+c)	for-in is used for arrays, for-of for objects
+–	
+d)	for-in and for-of are identical
+Ans:B
+34.	What is the output of the following code? javascript     var arr = [5, 10, 15];     var i = 0;     do {         console.log(arr[i]);         i++;     } while (i < arr.length);
+–	
+a)	5, 10, 15
+–	
+b)	15, 10, 5
+–	
+c)	5, 15, 10
+–	
+d)	Undefined
+Ans:A
+35.	How would you stop the iteration through the array at a certain element and continue with the next iteration?
+–	
+a)	return
+–	
+b)	break
+–	
+c)	continue
+–	
+d)	Exit
+Ans:C
+36.	What is the result of this code? javascript     var arr = [1, 2, 3, 4];     for (var i in arr) {         arr[i] *= 2;     }     console.log(arr);
+–	
+a)	[1, 2, 3, 4]
+–	
+b)	[2, 4, 6, 8]
+–	
+c)	undefined
+–	
+d)	Error
+Ans:B
+37.	Which of the following loops is generally used to iterate over array indexes?
+–	
+a)	for-of
+–	
+b)	for
+–	
+c)	for-in
+–	
+d)	Both b and c
+Ans:D
+38.	How do you properly increment the index variable inside a while loop to avoid an infinite loop?
+–	
+a)	i--
+–	
+b)	i++
+–	
+c)	arr[i]++
+–	
+d)	while(i < arr.length)
+Ans:B
+39.	What will the following code output? javascript     var arr = [10, 20, 30, 40];     var sum = 0;     var i = 0;     while (i < arr.length) {         sum += arr[i];         i++;     }     console.log(sum);
+–	
+a)	100
+–	
+b)	60
+–	
+c)	110
+–	
+d)	Error
+Ans:A
+40.	What will happen if you write a do-while loop without a terminating condition that eventually becomes false?
+–	
+a)	The loop will run indefinitely
+–	
+b)	The loop will run only once
+–	
+c)	The loop will throw an error
+–	
+d)	The loop will not run at all
+Ans:B
+41.	How do you reverse iterate through an array using a do-while loop?
+–	
+a)	Start the loop with arr.length - 1 and decrement
+–	
+b)	Use i-- and while (i >= 0)
+–	
+c)	Both a and b
+–	
+d)	Impossible using do-while
+Ans:C
+
+42.	What does the following code output? javascript     var arr = [10, 20, 30];     var i = 2;     do {         console.log(arr[i]);         i--;     } while (i >= 0);
+–	
+a)	10, 20, 30
+–	
+b)	30, 20, 10
+–	
+c)	10, 20
+–	
+d)	Error
+Ans:B
+43.	How would you print only the odd numbers in the following array using a for loop? javascript     var arr = [1, 2, 3, 4, 5];
+–	
+a)	Use if (arr[i] % 2 != 0) console.log(arr[i]);
+–	
+b)	Use if (arr[i] % 2 == 0) continue;
+–	
+c)	Use if (arr[i] % 2 != 0) break;
+–	
+d)	Both a and b
+Ans:D
+44.	What will this code output? javascript     var arr = [1, 2, 3, 4, 5];     for (var i = 0; i < arr.length; i++) {         if (arr[i] > 3) break;         console.log(arr[i]);     }
+–	
+a)	1, 2, 3
+–	
+b)	1, 2
+–	
+c)	1, 2, 3, 4
+–	
+d)	Error
+Ans:A
+45.	How can you loop over the array and stop once you find a specific number? javascript     var arr = [4, 5, 6, 7];
+–	
+a)	Use break inside an if statement
+–	
+b)	Use continue inside an if statement
+–	
+c)	Use return inside the loop
+–	
+d)	It’s not possible
+Ans:A
+46.	What is the result of this code? javascript     var arr = [5, 10, 15];     for (var i = 0; i < arr.length; i++) {         arr[i] += 5;     }     console.log(arr);
+–	
+a)	[10, 15, 20]
+–	
+b)	[5, 10, 15]
+–	
+c)	[5, 5, 5]
+–	
+d)	Error
+Ans:A
+47.	What does this code output? javascript     var arr = [1, 2, 3];     for (var i of arr) {         if (i === 2) continue;         console.log(i);     }
+–	
+a)	1, 2, 3
+–	
+b)	1, 3
+–	
+c)	1, 2
+–	
+d)	Undefined
+Ans:B
+48.	How do you write a for loop that skips the first two elements in an array?
+–	
+a)	Start the loop from i = 2
+–	
+b)	Use if (i < 2) continue
+–	
+c)	Decrement i after every iteration
+–	
+d)	Both a and b
+Ans:D
+49.	How would you add the elements of an array into a total using a for-in loop?
+–	
+a)	Loop over the keys and sum the array values
+–	
+b)	Loop over the values and sum them directly
+–	
+c)	Use the for-in loop to get both index and values
+–	
+d)	Not possible with for-in
+Ans:A
+50.	How can you iterate over both the index and the value of each element in the array?
+–	
+a)	Use for-in
+–	
+b)	Use for-of with .entries()
+–	
+c)	Use for with arr[i]
+–	
+d)	All of the above
+Ans:D
