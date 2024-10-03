@@ -1,0 +1,74 @@
+PROBLEM 1
+
+var num = prompt("Enter a Number :");
+var sum = num.split('');
+var res = '';
+for(i = 0; i<sum.length;i++){
+    var digit = parseInt(sum[i]);
+    if(digit<=1){
+        res += digit;
+        continue;
+    }
+    var prime = true;
+    for(j=2;j<=digit/2;j++){
+        if(digit%j==0){
+            prime = false;
+            break;
+        }
+    }
+    if(!prime){
+        res += digit; 
+    }
+}
+console.log(res);
+
+
+PROBLEM 2
+
+var num = prompt("Enter a Number :");
+var sum = num.split('');
+var res = 0;
+for(i = 0; i<sum.length;i++){
+    var digit = parseInt(sum[i]);
+    if(digit<=1){
+        res++;
+        continue;
+    }
+    var prime = true;
+    for(j=2;j<=digit/2;j++){
+        if(digit%j==0){
+            prime = false;
+            break;
+        }
+    }
+    if(!prime){
+        res++; 
+    }
+}
+console.log(res);
+
+PROBLEM 3
+
+var num = prompt("Enter a Number :");
+var sum = num.split('');
+var even = 0;
+var odd = 0;
+var resEven  = '';
+var resOdd  = '';
+for(i=0;i<num.length;i++){
+    var digit = parseInt(sum[i]);
+    if(digit%2==0){
+        even++;
+        resEven += digit;
+    }else if(digit %2!==0){
+        odd++;
+        resOdd += digit;
+    }
+}
+if (even > odd) {
+    console.log(`Even digits are more (${resEven})`);
+} else if (odd > even) {
+    console.log(`Odd digits are more (${resOdd})`);
+} else {
+    console.log(`Equal number of even (${resEven}) and odd (${resOdd}) digits`);
+}
