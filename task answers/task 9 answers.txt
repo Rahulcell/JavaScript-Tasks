@@ -1,0 +1,149 @@
+TASK 1:
+
+var num = prompt("Enter a Number :");
+var sum = 0;
+
+for (var index of num) {
+    index = Number(index);
+    if (index <= 1) {
+        continue;
+    } else {
+        var ifPrime = true;
+        for (var i = 2; i <= index / 2; i++) {
+            if (index % i === 0) {
+                ifPrime = false;
+                break;
+            }
+        }
+
+        if (ifPrime === true) {
+            sum += index;
+        }
+    }
+}
+console.log(sum);
+
+TASK 2:
+
+var originalObject = { 
+    name: "Rahul", 
+    age: 21, 
+    skills: { 
+        coding: "JavaScript", 
+        framework: "React" 
+    } 
+};
+
+var deepCopy = Object.assign({}, originalObject);
+
+deepCopy.skills = Object.assign({}, originalObject.skills);
+
+console.log(deepCopy);
+
+
+TASK 3:
+const originalObject = { 
+    name: "Rahul", 
+    age: 21, 
+    skills: { 
+        coding: "JavaScript", 
+        framework: "React" 
+    } 
+};
+
+const newObject = Object.create(originalObject);
+
+console.log("Inherited Key-Value Pairs from originalObject:");
+for (let key in newObject) {
+    if (!newObject.hasOwnProperty(key)) {
+        console.log(`${key}: ${newObject[key]}`);
+    }
+}
+
+TASK 4:
+
+Object.seal() prevents adding or deleting properties but allows modifications to existing writable properties.
+
+Object.freeze() makes an object immutable, preventing modifications to its properties but does not affect nested objects that are not frozen.
+
+Both methods do not affect inheritance; properties in a sealed or frozen object can still be inherited by child objects.
+
+
+
+
+Task 5: 
+
+JavaScript Object Methods Documentation
+Object.keys()
+Description: Returns an array of a given object's own enumerable property names.
+Syntax: Object.keys(obj);
+Parameters: obj: The object whose property names are to be returned.
+Returns: An array of strings representing the names of the object's own enumerable properties.
+Example: const obj = { a: 1, b: 2, c: 3 }; const keys = Object.keys(obj); // ['a', 'b', 'c']
+
+Object.values()
+Description: Returns an array of a given object's own enumerable property values.
+Syntax: Object.values(obj);
+Parameters: obj: The object whose property values are to be returned.
+Returns: An array of the object's own enumerable property values.
+Example: const obj = { a: 1, b: 2, c: 3 }; const values = Object.values(obj); // [1, 2, 3]
+
+Object.create()
+Description: Creates a new object with the specified prototype object and properties.
+Syntax: Object.create(proto, propertiesObject);
+Parameters: proto: The prototype object from which the new object inherits.
+propertiesObject (optional): An object whose own enumerable properties are added as properties to the new object.
+Returns: A new object with the specified prototype and properties.
+Example: const proto = { greet() { console.log('Hello'); } }; const obj = Object.create(proto); obj.greet(); // Hello
+
+Object.assign()
+Description: Copies all enumerable own properties from one or more source objects to a target object.
+Syntax: Object.assign(target, ...sources);
+Parameters: target: The target object to which properties are copied.
+...sources: One or more source objects from which properties are copied.
+Returns: The target object.
+Example: const target = { a: 1 }; const source = { b: 2, c: 3 }; const result = Object.assign(target, source); // { a: 1, b: 2, c: 3 }
+
+Object.seal()
+Description: Prevents new properties from being added to an object and marks all existing properties as non-configurable.
+Syntax: Object.seal(obj);
+Parameters: obj: The object to seal.
+Returns: The sealed object.
+Example: const obj = { a: 1 }; Object.seal(obj); obj.a = 2; // Allowed; delete obj.a; // Not allowed; obj.b = 3; // Not allowed;
+
+Object.freeze()
+Description: Prevents modification of existing properties and prevents new properties from being added to an object.
+Syntax: Object.freeze(obj);
+Parameters: obj: The object to freeze.
+Returns: The frozen object.
+Example: const obj = { a: 1 }; Object.freeze(obj); obj.a = 2; // Not allowed; delete obj.a; // Not allowed; obj.b = 3; // Not allowed;
+
+Object.isSealed()
+Description: Determines if an object is sealed.
+Syntax: Object.isSealed(obj);
+Parameters: obj: The object to check.
+Returns: 'true' if the object is sealed, 'false' otherwise.
+Example: const obj = { a: 1 }; Object.seal(obj); console.log(Object.isSealed(obj)); // true
+
+Object.isFrozen()
+Description: Determines if an object is frozen.
+Syntax: Object.isFrozen(obj);
+Parameters: obj: The object to check.
+Returns: 'true' if the object is frozen, 'false' otherwise.
+Example: const obj = { a: 1 }; Object.freeze(obj); console.log(Object.isFrozen(obj)); // true
+
+Object.hasOwnProperty()
+Description: Returns a boolean indicating whether the object has the specified property as its own property (as opposed to inheriting it).
+Syntax: obj.hasOwnProperty(prop);
+Parameters: prop: The name of the property to check.
+Returns: 'true' if the property exists as an own property, 'false' otherwise.
+Example: const obj = { a: 1 }; console.log(obj.hasOwnProperty('a')); // true; console.log(obj.hasOwnProperty('b')); // false
+
+Object.entries()
+Description: Returns an array of a given object's own enumerable string-keyed property [key, value] pairs.
+Syntax: Object.entries(obj);
+Parameters: obj: The object whose own enumerable properties are to be returned.
+Returns: An array of arrays, where each inner array is a [key, value] pair.
+Example: const obj = { a: 1, b: 2 }; const entries = Object.entries(obj); // [['a', 1], ['b', 2]]
+
+

@@ -1,0 +1,12 @@
+Task 1 -> Find Sum of Prime numbers in given number 
+input : 12345 -> number
+output : 10
+
+Task 2 -> Make Deep Copy of an object using Object Method
+
+Task 3 -> After using Object.create() , try to print key value pair in new Object
+
+Task 4 -> When Does Object.seal and Object.freeze does not work
+
+Task 5 -> Make Documentation on below methods present in Object
+Methods :  keys() , values() , create() , assign() , seal() , freeze() , isSealed(), isFreezed() , hasOwnProperty() , entries()
