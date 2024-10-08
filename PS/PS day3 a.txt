@@ -1,0 +1,67 @@
+
+1) WAP to print the sum of digits in a number
+input: Enter a number : 146
+Output: 1+4+6 = 11
+
+
+var num = prompt("Enter a Number :");
+var sum = 0;
+var res = " ";
+
+for(i=0;i<num.length;i++){
+    var digit = Number(num[i]);
+    sum += digit;
+    if(i === num.length-1){
+        res += digit + " " + "=" + " ";
+    }else{
+        res += digit + " " + "+" + " ";
+    }
+}
+var rev = res+sum;
+console.log(rev);
+
+WAP to check primes are more or non primes are more
+input: Enter a number: 3576
+output: Primes are more
+
+
+var num = parseInt(prompt("Enter a Number :"));
+var noCount = 0;
+var yesCount = 0;
+
+if (num <= 1) {
+    noCount += 1; 
+} else {
+    for (var i = 2; i <= num; i++) {
+        var isPrime = true;
+        for (var j = 2; j <= Math.sqrt(i); j++) {
+            if (i % j === 0) {
+                isPrime = false;
+                break;
+                noCount += 1;
+            }else{
+                yesCount += 1;
+            }
+        }
+    }
+}
+var res = (yesCount>noCount)?"Primes Are More":(noCount>yesCount)?"Non-Primes are more":"Both are Equal"
+console.log(res)
+
+ WAP to print the factorial of a number in reverse order
+input: Enter number: 5
+output: 5*4*3*2*1 = 21
+
+
+var num = parseInt(prompt("Enter a NUmber :"));
+var fact = 1;
+var res = " ";
+for(var i = num;i>=1;i--){
+    fact *= i;
+    if(num>1){
+        res += i + "*";
+    }else{
+        res += i;
+    }
+}
+console.log(res + "=" + fact)

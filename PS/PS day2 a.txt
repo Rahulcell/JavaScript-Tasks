@@ -1,4 +1,6 @@
-PROBLEM 1
+1) WAP to print the non primes digits in the given number:
+input: Enter a number: 784
+output: 8 4
 
 var num = prompt("Enter a Number :");
 var sum = num.split('');
@@ -22,8 +24,9 @@ for(i = 0; i<sum.length;i++){
 }
 console.log(res);
 
-
-PROBLEM 2
+2) WAP to print the count of non-prime numbers in the given number
+input: Enter a number: 784
+output: 2
 
 var num = prompt("Enter a Number :");
 var sum = num.split('');
@@ -47,7 +50,9 @@ for(i = 0; i<sum.length;i++){
 }
 console.log(res);
 
-PROBLEM 3
+3) WAP to print whether even number are more or odd number are more
+input: Enter a number: 17654
+output: odd are more
 
 var num = prompt("Enter a Number :");
 var sum = num.split('');

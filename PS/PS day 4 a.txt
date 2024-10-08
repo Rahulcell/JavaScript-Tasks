@@ -1,0 +1,36 @@
+task:-
+1) WAP to print the factorial of the maximum digit in the number
+input: Enter number: 145
+output: Maximum Factorial is: 120
+
+
+var num =prompt("Enter a Number");
+var res = " ";
+var fact = 0;
+var rev = 1;
+for(var i = 0;i<num.length;i++){
+    var digit = Number(num[i]);
+    if(fact<digit){
+        fact = digit;
+    }
+}
+for(var j = fact;j>=1;j--){
+    rev *=j;
+}
+console.log(rev)
+
+ find the reverse of a number without using string and methods
+input: Enter number: 342
+output: 243
+
+
+var num = prompt("Enter a number:");
+var reversed = 0;
+
+while (num > 0) {
+    var digit = num % 10;
+    reversed = reversed * 10 + digit;
+    num = Math.floor(num / 10);
+}
+
+console.log(reversed);
