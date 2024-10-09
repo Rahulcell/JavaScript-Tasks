@@ -1,0 +1,63 @@
+A. Given a number, check if it is automorphic or not. A number is called an automorphic number if and only if it’s a square ends in the same digits as the number itself.
+
+Example 1:
+Input Format: N=76
+Result: Automorphic Number
+Explanation: Calculating 76 * 76 gives 5776, it ends with the given number.
+
+Input Format: 25
+Result: Automorphic Number
+Explanation: Calculating 25*25 gives 625, it ends with the given number.
+
+SOLUTION:
+
+var num = Number(prompt("Enter any Number :"));
+var res = " ";
+var product = String(num*num);
+var numStr = String(num);
+count = 0;
+for(i=product.length-1;count<numStr.length;i--){
+    res = product[i]+res;
+    count++;
+}
+if(res == num){
+    console.log(`${num} is an automorphic Number`);
+}else{
+    console.log(`${num} is not an automorphic Number`);
+}
+
+
+
+
+
+
+
+
+
+
+
+B. Give an integer N. print the Fibonacci series up to the Nth term
+
+Example 1:
+Input: 5
+
+Output: 0 1 1 2 3 5 
+Explanation: 0 1 1 2 3 5 is the Fibonacci series up to 5th term. (0 based indexing)
+Example 2:
+Input: 6
+
+Output: 0 1 1 2 3 5 8
+Explanation: 0 1 1 2 3 5 8 is the Fibonacci series up to 6th term. (0 based indexing)
+
+SOLUTION:
+
+
+var num = Number(prompt("Enter any Number :"));
+var res = " ",a=0,b=1;
+for(i=0;i<num+1;i++){
+    res += a + " ";
+    c=a+b;
+    a=b;
+    b=c;
+}
+console.log(res)

@@ -1,0 +1,30 @@
+A. check if the number is abundant or not 
+
+Example: 1
+Input: 18
+Output: Abundant Number
+Explanation: Divisors of 18 are 1, 2, 3, 6, 9. 1+2+3+6+9=21 since 21 is greater than 18, 18 is an abundant number.
+
+Example: 2
+Input: 21
+Output: Not Abundant Number
+Explanation: Divisors of 21 are 1, 3, 7. 1+3+7=11 since 11 is smaller than 21, 11 is not an abundant number.
+
+
+
+SOLUTION:
+
+
+
+var num = Number(prompt("Enter any Number :"));
+var res = 0;
+for(i=0;i<num;i++){
+    if(num%i==0){
+        res += i;
+    }
+}
+if(res>num){
+    console.log(`${num} is a Abudant Number`);
+}else{
+        console.log(`${num} is a not an Abudant Number`);
+}
