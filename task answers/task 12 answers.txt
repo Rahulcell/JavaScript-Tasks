@@ -1,0 +1,92 @@
+1.	Map Task 1: Write a function that takes an array of numbers and returns a new array where each number is multiplied by 2 using the map function.
+Solution:      	var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+                var mArr = arr.map(function(ele){
+    			return ele * 2
+                })
+                console.log(mArr)
+
+
+2.	Map Task 2: Use the map function to convert an array of strings to uppercase.
+Solution :		 var arr = ["a", "b" , "c" , "d"];
+                var mArr = arr.map(function(ele){
+    			return ele.toUpperCase();
+                })
+                console.log(mArr)
+
+
+3.	Map Task 3: Given an array of objects representing students with properties name and score, use map to return an array of only the student names.
+Solution: 	const students = [
+   		    {name:"rahul" , score : "90%"},
+    		{name:"sravan" , score : "90%"},
+   		    {name:"Jaya Vardhan" , score : "90%"},
+    		{name:"Sai Teja" , score : "90%"},
+   		    {name:"Yashwanth" , score : "90%"}
+    		];
+    
+    		var newArr = students.map(data => data.name);
+    		console.log(newArr);
+
+
+
+4.	Filter Task 1: Write a function that takes an array of numbers and returns a new array with only the even numbers using the filter function.
+Solution      	var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+                var newArr = arr.filter(ele => ele%2==0);
+                console.log(newArr)
+
+
+5.	Filter Task 2: Given an array of strings, filter out all strings with a length less than 5 characters.
+Solution  	var arr = ["Rahul" , "Sravan" , "Sai Teja" , "Yashwanth" ,"Jaya" , "Sanith"];
+v            ar newArr = arr.filter(ele => {
+    			if (ele.length <=5){
+        				return ele
+    				}
+            });
+            console.log(newArr)
+
+
+6.	Filter Task 3: Use the filter function to return an array of numbers greater than 50 from an input array.
+Solution 		var arr = [681 , 52 , 45 , 25 , 65 , 35 , 75 , 95 , 12];
+                var newArr = arr.filter(ele => ele > 50);
+                console.log(newArr)
+
+
+7.	forEach Task 1: Write a function that uses forEach to print each item of an array of strings to the console.
+Solution : 		var arr = [681 , 52 , 45 , 25 , 65 , 35 , 75 , 95 , 12];
+                var newArr = arr.forEach(ele => console.log(ele))
+                console.log(newArr)
+
+
+
+8.	forEach Task 2: Use forEach to calculate the sum of all numbers in an array and log the result.
+Solution 
+            var arr = [681 , 52 , 45 , 25 , 65 , 35 , 75 , 95 , 12];
+            sum = 0;
+            var newArr = arr.forEach(ele =>{ 
+                sum += ele;
+            })
+            console.log(sum)
+
+
+
+9.	forEach Task 3: Given an array of objects representing products with properties name and price, use forEach to log each product name along with its price.
+Solution:
+            const students = [
+                { name: "Rahul", score: "90%" },
+                { name: "Sravan", score: "90%" },
+                { name: "Jaya Vardhan", score: "90%" },
+                { name: "Sai Teja", score: "90%" },
+                { name: "Yashwanth", score: "90%" },
+                ];
+
+                var newArr = students.forEach((data) => console.log(data.name));
+
+
+
+
+
+10.	Combined Task: Use map, filter, and forEach to filter an array of numbers, keeping only the even numbers, multiply each even number by 3, and then print each resulting value to the console.
+var arr = [682, 52, 44, 25, 66, 35, 90, 95, 12];
+
+var newArr1 = arr.filter(ele => ele % 2 == 0);
+var newArr2 = newArr1.map(ele => ele * 3);
+newArr2.forEach(data => console.log(data));
