@@ -1,0 +1,20 @@
+.my-section {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.my-heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.my-paragraph {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}

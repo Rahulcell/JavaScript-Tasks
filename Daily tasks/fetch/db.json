@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "rahul",
+      "batch": "18r"
+    },
+    {
+      "id": "2",
+      "name": "jayavardhan",
+      "batch": "17r"
+    },
+    {
+      "id": "3",
+      "name": "Sravan",
+      "batch": "16r"
+    },
+    {
+      "id": "4",
+      "name": "yashwanth",
+      "batch": "15r"
+    },
+    {
+      "id": 4,
+      "name": "surendra",
+      "batch": "14r"
+    },
+    {
+      "id": "5",
+      "name": "saiteja",
+      "batch": "14r"
+    },
+    {
+      "id": "6",
+      "name": "sanith",
+      "batch": "13r"
+    },
+    {
+      "id": "7",
+      "name": "saikiran",
+      "batch": "12r"
+    }
+  ]
+}

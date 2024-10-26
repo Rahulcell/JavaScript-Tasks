@@ -1,0 +1,10 @@
+.container{
+    width:80%;
+    margin:20px auto;
+    border:2px solid;
+    padding:2rem;
+    background-color: #eee;
+}
+.child{
+    line-height: 1.5;
+}

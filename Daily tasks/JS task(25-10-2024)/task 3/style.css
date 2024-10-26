@@ -1,0 +1,15 @@
+.one{
+    font-size: 4rem;
+    color: lightblue;
+    background-color: blue;
+}
+.second{
+    font-size: 3rem;
+    color: lightcoral;
+    background-color: beige;
+}
+.third{
+    font-size: 2rem;
+    color:lightgreen;
+    background-color: black;
+}
