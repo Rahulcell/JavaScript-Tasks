@@ -7,25 +7,32 @@ const options = {
     }
 };
 
-async function execuet() {
+let jokeContainer = document.createElement("div");
+jokeContainer.className = "joke-container";
+document.body.appendChild(jokeContainer);
+
+const refreshButton = document.createElement("button");
+refreshButton.className = "refresh-button";
+refreshButton.innerText = "Get Another Joke";
+refreshButton.onclick = execute;
+document.body.appendChild(refreshButton);
+
+async function execute() {
     try {
         const response = await fetch(url, options);
         const data = await response.json();
         const joke = data[Object.keys(data)[0]];
 
-        let div = document.createElement("div");
-        div.className = "joke-container";
-        
+        jokeContainer.innerHTML = ''; 
+
         let p = document.createElement("p");
         p.className = "joke-text";
         p.innerText = joke;
-        
-        div.appendChild(p);
-        document.body.append(div);
+
+        jokeContainer.appendChild(p);
     } catch (error) {
         console.error(error);
     }
 }
 
-execuet();
-
+execute();
